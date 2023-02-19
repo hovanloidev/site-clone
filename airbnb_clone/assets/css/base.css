@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #ff385c;
+  --heading-color: #222222;
+  --font-color: #717171;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
