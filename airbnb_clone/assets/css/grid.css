@@ -1,11 +1,11 @@
 .grid {
   width: 100%;
   display: block;
-  padding: 0;
+  padding: 0 40px;
 }
 
 .grid.wide {
-  max-width: 1700px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -141,6 +141,18 @@
 
 /* >= Tablet */
 @media (min-width: 740px) {
+  .grid-small {
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+  }
+
+  .grid {
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+  }
+
   .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -277,6 +289,18 @@
 
 /* PC medium resolution > */
 @media (min-width: 1113px) {
+  .grid-small {
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+  }
+
+  .grid {
+    width: 100%;
+    display: block;
+    padding: 0 80px;
+  }
+
   .row {
     margin-left: -12px;
     margin-right: -12px;
@@ -429,6 +453,12 @@
 
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
+  .grid-small {
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+  }
+
   .wide {
     width: 644px;
   }
@@ -436,6 +466,12 @@
 
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
+  .grid-small {
+    width: 100%;
+    display: block;
+    padding: 0 40px;
+  }
+
   .wide {
     width: 984px;
   }
